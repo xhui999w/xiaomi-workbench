@@ -1,0 +1,11 @@
+.git
+.github
+.openai
+.wrangler
+node_modules
+dist
+mi-workbench-site.tar.gz
+*.log
+.env*
+Dockerfile*
+docker-compose*.yml

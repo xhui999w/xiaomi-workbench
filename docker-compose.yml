@@ -1,0 +1,10 @@
+services:
+  xiaomi-workbench:
+    image: ghcr.io/xhui999w/xiaomi-workbench:latest
+    container_name: xiaomi-workbench
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
